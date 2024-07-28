@@ -1,5 +1,7 @@
 # Local Ease: Water Supply Management System
 
+[Local Ease Figma Design](https://www.figma.com/design/yFsDYsI2yv29lF80zF1oZy/Untitled?node-id=0-1&t=6Lcuu5cNbQVoTpSQ-1)
+
 Good morning everyone, we are from the team Local Ease and today we are here to present our idea on the problem statement of Water Supply Management. Our presentation will address issues such as:
 
 - Inability to identify and address water wastage or leakages
