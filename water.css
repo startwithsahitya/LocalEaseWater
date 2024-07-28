@@ -1,0 +1,154 @@
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    body {
+        background-image: url('c:\Users\dilpr\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\FCE66B28C576F7FA8F94C49C95BEA437\WhatsApp Image 2024-07-28 at 07.00.55_86139c80.jpg');
+        background-size: cover; /* or contain, depending on your needs */
+        background-repeat: no-repeat; /* prevents the image from repeating */
+        background-position: center center; /* centers the image */
+    }
+    
+
+}
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.navbar .logo {
+    width: 294px;
+    height: 55px;
+}
+.navbar .auth {
+    display: flex;
+    align-items: center;
+}
+.navbar .auth .login {
+    color: #1634C9;
+    font-size: 18px;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.navbar .auth .signup {
+    width: 174px;
+    height: 63px;
+    background: #66C8FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin-right: 44px;
+}
+.section {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 45px;
+}
+.section h1 {
+    font-size: 44px;
+    font-weight: 600;
+}
+.section p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.important-updates .highlight {
+    color: #FF0000;
+}
+.important-updates .link {
+    color: #3950C2;
+    cursor: pointer;
+}
+.action-section {
+    display: flex;
+    width: 95%;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+.action-card {
+    width: 414px;
+    height: 460px;
+    text-align: center;
+    background: #3990D6;
+    box-shadow: 0px 15px 4px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    margin: 23px;
+    border-radius: 20px;
+}
+.action-card h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+.action-card p {
+    font-size: 18px;
+    font-weight: 400;
+}
+.action-card .btn {
+    width: 150px;
+    height: 49px;
+    background: #62b4f4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+
+}
+.btn:hover{
+    color: red;
+}
+.availability{
+    border: 2px dotted blue;
+    width: 340px;
+    display: inline-block;
+    margin: 33px;
+    position: relative;
+    bottom: 153px;
+    left: 102px;
+}
+.collage-section, .connectivity-section {
+    text-align: center;
+    padding: 20px 0;
+    display: block;
+}
+.collage-section img, .connectivity-section img {
+    max-width: 80%;
+    height: auto;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline-block;
+    position: relative;
+    top: 110px;
+    z-index: +1;
+}
+
+.quote-section img{
+    position: relative;
+    bottom: 160px;
+    height: 411px;
+    width: 100%;
+
+}
+.quote-section p{
+    border: 2px dashed  #3990D6;
+    position: relative;
+    bottom: 328px;
+    color: white;
+    text-align: center;
+}
+
+
+

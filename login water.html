@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="login water.css">
+
+    <title>Login Form</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="flip-card-inner">
+            <div class="box-login">
+                <ul>
+                    <form action="" method="get">
+                        <h1>LOGIN</h1>
+                        <div class="email-login">
+                            <input class="inpt" type="email" name="email" id="email-login" placeholder="Email " required>
+                            <i class='fa fa-envelope'></i>
+                        </div>
+
+                        <div class="password-login">
+                            <input class="inpt" type="password" name="password" id="password-login"
+                                placeholder="Password" required>
+                            <i id="eye-login" class="fa fa-eye-slash"></i>
+                        </div>
+
+                        <div class="forget">
+                            <input type="checkbox" name="checkbox1" id="checkbox">
+                            <label for="checkbox">Remember me</label>
+                            <a href="#">Forget Password?</a>
+                        </div>
+                        <button type="button" class="btn" onclick="login()">LOGIN</button>
+                        <p id="message" style="color: red;"></p>
+                    </form>
+                    <div class="register-link">
+                        <p>Dont have an account? <a href="sign up.html" onclick="flip()">Sign Up</a></p>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        function login() {
+            const email = document.getElementById('email-login').value;
+            const password = document.getElementById('password-login').value;
+
+            const correctEmail = 'user@example.com';
+            const correctPassword = 'password123';
+
+            if (email === correctEmail && password === correctPassword) {
+                // Redirect using a relative path
+                window.location.href = 'user final.html';
+            } else {
+                document.getElementById('message').innerText = 'Wrong credentials';
+            }
+        }
+    </script>
+</body>
+
+</html>
